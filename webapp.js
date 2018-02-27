@@ -3,6 +3,7 @@
 var money = 1000;
 var research = 1;
 var research_cost = 1000;
+var getmoney= 100
 
 function generate() {
 	money += 100 * research;
@@ -56,5 +57,9 @@ function loadCookies(cname) {
 	e();
 }
 
+function get_money () {
+	"use strict";
+	getmoney =+ (100);
+}
 
 
